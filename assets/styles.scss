@@ -1,0 +1,21 @@
+/*About Section*/
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+    .left-header {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .h-shape {
+            width: 65%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            clip-path: polygon(24% 23%, 39% 7%, 62% 7%, 77% 23%, 77% 77%, 61% 93%, 39% 93%, 24% 77%);
+        }
+    }
+}

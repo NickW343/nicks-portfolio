@@ -1,0 +1,30 @@
+/*About Section*/
+.about-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.about-content .left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.about-content .left-header .h-shape {
+  width: 65%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-clip-path: polygon(24% 23%, 39% 7%, 62% 7%, 77% 23%, 77% 77%, 61% 93%, 39% 93%, 24% 77%);
+          clip-path: polygon(24% 23%, 39% 7%, 62% 7%, 77% 23%, 77% 77%, 61% 93%, 39% 93%, 24% 77%);
+}
+/*# sourceMappingURL=styles.css.map */
